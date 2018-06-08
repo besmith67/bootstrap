@@ -15,24 +15,26 @@
 	</style>
   </head>
   
-  <body>
+  <body class="bg-danger">
   
-	<div class="jumbotron text-center JumboHeaderImg" style="margin-bottom:0">
-		<h1>Saranac Photo Share</h1>
-		<p>Small Village, Big Family</p> 
+	<div class="jumbotron text-center JumboHeaderImg mb-0" style="margin-bottom:0">
+		<div class="bg-light mx-auto p-3" style= "width:300px;">
+		<h1 class="text-danger">Saranac Photo Share</h1>
+		<p class="text-danger">Small Village, Big Family</p> 
+		</div>
 	</div>
 
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		
-		<a class="navbar-brand" href="#">Saranac Photo Share</a>
+		<a class="navbar-brand" href="https://csis.svsu.edu/~besmith2/bootstrap/program4.html">Saranac Photo Share</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 
 	  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 		<ul class="navbar-nav nav-pills">
-		  <li class="nav-item"><a class="nav-link active" href="testsite.html">Home</a></li>
-		  <li class="nav-item"><a class="nav-link" href="#">Bootstrap</a></li>
+		  <li class="nav-item"><a class="nav-link active" href="program4.html">Home</a></li>
+		  <li class="nav-item"><a class="nav-link" href="program4explanations">Bootstrap</a></li>
 		  <li class="nav-item"><a class="nav-link" href="https://github.com/besmith67/bootstrap">Github</a></li>
 		  
 		</ul>
@@ -42,46 +44,58 @@
 	
 	
 	
-	<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-	<div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-      <h2>About Author</h2>
-      <h5>Branden Smith</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Not sure what to do here</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    
-  </div>
+	<div class="container mb-5 mt-4" ">
+	  <div class="row bg-light rounded-top p-4">
+		
+			<div class="col-sm-12 col-md-6 col-lg-8">
+			  <h2>Childhood Memories</h2>
+			  <h5>Scheid Park, May 16, 2018</h5>
+			  <img src="park1.jpg" alt="The Skate Park" class="img-thumbnail img-responsive">
+			  <p>Picture of the Skate Park</p>
+			  <p>Scheid Park was one of my favorite places while I grew up. It looks a bit different now, but I spent hours and hours playing tag, skateboarding, or just hanging out with friends.</p>
+			  <hr />
+			  <h2>The Beginning and the End</h2>
+			  <h5>The Rail Trail, May 18, 2018</h5>
+			  <img src="running trail.jpg" alt="The Running Trail" class="img-thumbnail img-responsive">
+			  <p>Picture of a trail marker</p>
+			  <p>The Rail Trail that begins here in Saranac and I believe runs to St. Johns is where I have been training for my half marathon. This specific marker is where I start every long run day. Each marker after that is 1 mile exactly. The 131 marker is where I start, and then after running three or four markers towards Ionia, then I turn around and end at this same marker. I am very thankful to have such a flat and well marked area to run in Saranac!</p>
+			  <hr />
+			</div>
+			
+			<div id="sidebar"class="col-sm-8 col-md-4 col-lg-4 float-right">
+				<div>
+					  <h2>Saranac, MI</h2>
+					  <h5>Our Home</h5>
+					  <img src="map_of_saranac_mi.jpg" alt="Saranac, MI" class="img-thumbnail img-responsive">
+					  <p><strong>Welcome to Saranac Photo Share!</strong>
+						Saranac may be small, but it is still beautiful.
+						This blog site is used to share pictures of our lovely village of Saranac.</p>
+				  </div>
+				  <br>
+				  <div>
+					  <h2>About Author</h2>
+					  <h5>Branden Smith</h5>
+					  <img src="SaranacS.jpg" alt="The Saranac S" class="img-thumbnail img-responsive">
+					  <p>Hello, I've lived in Saranac as long as I remember, and I'm glad I grew up here. Enjoy my snapshots of my experience here!
+						</p>
+				  </div>
+				  
+			</div>
+		
+		</div>
+	  <div class="row bg-dark rounded-bottom p-3">
+		<div class="col-lg-6 col-sm-12 col-md-6 text-light">
+			<h4>Contact Me</h4>
+			
+			<p>Need to contact me? Send an email at besmith2@svsu.edu.</p>
+		</div>
+		<div class="col-lg-6 col-sm-12 col-md-6 text-light">
+			<h4>Back to the top?</h4>
+			
+			<a class= "text-link bg-light p-1" href="https://csis.svsu.edu/~besmith2/bootstrap/program4.html">Go to Top</a>
+		</div>
+	  </div>
+	  
 </div>
   
   </body>

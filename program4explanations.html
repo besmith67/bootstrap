@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<style>
+		.JumboHeaderImg {
+			background-image: url(water.jpg);
+			background-size: cover;
+		}
+	</style>
+  </head>
+  
+  <body class="bg-danger">
+  
+	<div class="jumbotron text-center JumboHeaderImg mb-0">
+		<div class="bg-light mx-auto p-3" style= "width:300px;">
+		<h1 class="text-primary">Bootstrap Classes</h1>
+
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		
+		<a class="navbar-brand" href="https://csis.svsu.edu/~besmith2/bootstrap/program4.html">Saranac Photo Share</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		<ul class="navbar-nav nav-pills">
+		  <li class="nav-item"><a class="nav-link" href="program4.html">Home</a></li>
+		  <li class="nav-item"><a class="nav-link active" href="program4explanations">Bootstrap</a></li>
+		  <li class="nav-item"><a class="nav-link" href="https://github.com/besmith67/bootstrap">Github</a></li>
+		  
+		</ul>
+	  </div>
+
+	</nav>
+	
+	
+	
+	<div class="container mb-5 mt-4">
+	  <div class="row bg-light rounded-top p-4">
+			
+			<div class="col-sm-12 col-md-6 col-lg-6">
+			  
+			  <h4 class= "text-primary">Colors</h4>
+			  
+			  <p>A nice, quick option to have in Bootstrap is the color classes. First, you put the object name that your are changing the color of
+				and then a dash. After that you can choose which predefined colors. For example, the body background has the class "bg-danger" which is red
+				, the background of the footer is black from a class "bg-dark", and the Colors title above is blue from "text-primary".</p>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+			  <h4>Spacing</h4>
+			  
+			  <p>Being able to change the margin spacing and padding of containers and text with just a couple of letters and dashes is so useful.
+				The margin class starts with the letter "m" while the padding class has a "p". There is also the option to just change the top, right, bottom, or left spacing 
+				by putting t, r, b, or l next to the first letter. Then comes a dash, and then number from 1 to 5, smallest to biggest spacing. There is also the optional area in between to indicate that it should act responsively (mt-*-#).
+				Some examples of my spacing is in this body container, I have classes "mb-5" and "mt-4" to give margin spacing on top and bottom.
+				In my footer below, I have the class "p-3" to give some padding to the text.</p>
+			</div>
+			
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				  <h5>Navbar</h5>
+				  <p> The Navbar that is displayed above has many different capabilities designed just for it. One class is "navbar-brand" which is on the left of the navbar and displays the brand name of the site.
+						My favorite class is the "collapse navbar-collapse" combined with a "navbar-toggler" button which allows the navbar to collapse and open from a button when the screen is too small.
+						Another coloring class that goes with the navbar is "navbar-dark" which just adjusts the bar to black and text to white.
+					</p>
+			  </div>
+			  
+			  <div class="col-sm-12 col-md-4 col-lg-4">
+				  
+				  <h5>Grid</h5>
+				  <p> One of the best parts about Bootstrap is the ability to lay objects on a grid and position easily.
+					To start the grid, first, a "container" div class needs to be made to wrap around the grid.
+					Then a table structure must be made by making a "row" div class and then multiple column classes.
+					The column class syntax goes like "col-sm-12". The middle part represents the screen size, and the number is the size. Each row width is 12 spaces wide, so for example, this row has
+					3 div columns that are 4 spaces wide each on a large screen, or "col-lg-4". The total of each row should add up to 12 if you want the entire page to be filled.
+					</p>
+			  </div>
+			  
+			  <div class="col-sm-12 col-md-4 col-lg-4">
+				  
+				  <h5>Images</h5>
+				  <p>Images are an important part of creating websites, and Bootstrap makes it even easier to use them. Bootstrap is all about responsive websites.
+					The class "img-responsive" allows the picture to resize if it needs to when the screen size changes.
+					Another class I used on my images is the "img-thumbnail" class to give a nice predesigned border and pleasing look to my photos.
+					</p>
+			  </div>
+				  
+			
+		
+	  </div>
+	  <div class="row bg-info p-4">
+			
+			<div class="col-12">
+			  <h2>Using Bootstrap instead of Wordpress<h2>
+			  <img src="bootstrapimg.png" alt="Bootstrap" class="img-responsive">
+			  <h4 class= "text-success">Pros</h4>
+			  
+			  <p>Bootstrap is used for web responsive development and easily allows the creator to design a website for mobile and PC.
+				Even though Wordpress does it too, Bootstrap gives more freedom to do what you want and get complete responsiveness. The big benefit for me is that Bootstrap is similar to
+				HTML and CSS which is syntax and designing tools that I have already learned, and made it easier to pickup. Wordpress, and all site builders, are newer to me and when
+				I didn't know how to do something, it was more difficult to look it up, or it wasn't possible. So the main benifits of using Bootstrap over Wordpress is that it gives 
+				more freedom to the creator and it was easier to pickup for me as a Computer Science Major.
+			  </p>
+				<br>
+			  <h4 class= "text-danger">Cons</h4>
+			  
+			  <p>A benifit for me can be a negative to others I suppose. Coding is a lot more complicated to others and Wordpress would be better for them than learning HTML and Bootstrap.
+				Also, site builders for simple websites are really quick compared to Bootstrap when making a site from scratch. Wordpress also has templates to take from and gives a headstart to creating the site.
+				Another con about using Bootstrap over Wordpress is that it doesn't automatically come with a bunch of data tracking gadgets like knowing how much views, visitors, and followers that your site has.
+				Wordpress also gives you a free "real" domain and allows your site to be out on the web while if I didn't have the University's servers my site would just be a file.
+			  </p>
+			</div>
+		
+	  </div>
+	  
+	  <div class="row bg-dark rounded-bottom p-3">
+		<div class="col-lg-6 col-sm-12 col-md-6 text-light">
+			<h4>Contact Me</h4>
+			
+			<p>Need to contact me? Send an email at besmith2@svsu.edu.</p>
+		</div>
+		<div class="col-lg-6 col-sm-12 col-md-6 text-light">
+			<h4>Back to the top?</h4>
+			
+			<a class= "text-link bg-light p-1" href="https://csis.svsu.edu/~besmith2/bootstrap/program4.html">Go to Top</a>
+		</div>
+	  </div>
+	  
+</div>
+  
+  </body>
+  
+</html>
